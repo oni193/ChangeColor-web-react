@@ -16,10 +16,10 @@ function App(){
 
 const Container = styled.div`
   width: 100vw;
-  height: 100vh;
+  height: 99vh;
   display: flex;
   flex-direction: column;
-  align-itemds: center;
+  align-items: center;
   justify-content: center;
 `;
 
@@ -46,7 +46,7 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-//위에 const Button = styled.button 을 받아온거임!! styled.button이 아니라..
+//위에 const Button = styled.button 을 받아온거임!! styled.button이 아니라..g
 const CyanButton = styled(Button)`
   background: cyan;
 `;
