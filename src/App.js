@@ -15,9 +15,11 @@ function App(){
   <Container>
     <Pallete color={color} />
     <ButtonContainer>
-      <CyanButton />
-      <BrownButton />
-      <PinkButton />
+      <CyanButton onClick={() => setColor("cyan")} />
+      <BrownButton onClick={() => setColor("brown")} />
+      <PinkButton onClick={() => setColor("pink")} />
+      {/* onClick 이벤트 핸들러가 해당 요소를 클릭했을때 주어진 함수를 실행 .. 
+        위와 같이 인자 넘겨주는 함수 달때는 값을 화살표 함수로 주어야 한다.  */}
     </ButtonContainer>
   </Container>
   );
