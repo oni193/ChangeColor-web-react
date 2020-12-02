@@ -2,7 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 
 function App(){
-  return <Container>App</Container>;
+  return (
+  <Container>
+    <Pallete />
+    <ButtonContainer>
+      <CyanButton />
+      <BrownButton />
+      <PinkButton />
+    </ButtonContainer>
+  </Container>
+  );
 }
 
 //Container 생성
